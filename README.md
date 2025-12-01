@@ -9,33 +9,35 @@ Designed for high-speed performance, it combines deep packet inspection (DPI), A
 
 Its advanced features include:
 
-Telegram integration for instant alerts on suspicious activity, ensuring rapid incident response.
+* Telegram integration for instant alerts on suspicious activity, ensuring rapid incident response.
 
-Adaptive filtering that learns and evolves with traffic patterns to block emerging threats.
+* Adaptive filtering that learns and evolves with traffic patterns to block emerging threats.
 
-Geo-IP blocking and time-based access control for precise traffic management.
+* Geo-IP blocking and time-based access control for precise traffic management.
 
-Encrypted remote administration via SSH, VPN, and multi-factor authentication.
+* Encrypted remote administration via SSH, VPN, and multi-factor authentication.
 
-Application-layer filtering to control and monitor specific apps and protocols.
+* Application-layer filtering to control and monitor specific apps and protocols.
 
-Automated quarantine of compromised endpoints to prevent lateral attacks.
+* Automated quarantine of compromised endpoints to prevent lateral attacks.
 
-Load balancing and traffic shaping for optimized network performance during peak loads.
+* Load balancing and traffic shaping for optimized network performance during peak loads.
 
-SIEM integration for centralized logging, compliance reporting, and forensic analysis.
+* SIEM integration for centralized logging, compliance reporting, and forensic analysis.
 
 Whether deployed in private data centers, cloud infrastructure, or hybrid networks, Accurate-Virtual-Firewall offers scalable, intelligent, and proactive defense. Its web-based management dashboard and REST API provide seamless configuration, making it ideal for IT teams that demand both power and simplicity.
 
 With Accurate-Virtual-Firewall, security is not just reactive — it’s predictive, adaptive, and always ready.
 
-**How to clone the repo**
+## How to clone the repo
+```bash
 
 git clone https://github.com/Iankulani/Accurate-Virtual-Firewall.git
 
 cd Accurate-Virtual-Firewall
+```
 
-**How to run**
-
+## How to run
+```bash
 python3 Accurate-Virtual-Firewall.py
-
+```
